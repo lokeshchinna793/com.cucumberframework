@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [ParallelSuite]">
+  <test thread-count="3" parallel="tests" name="ParallelTests(failed)">
+    <classes>
+      <class name="com.testrunner.ParallelTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.testrunner.ParallelTestRunner -->
+    </classes>
+  </test> <!-- ParallelTests(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->

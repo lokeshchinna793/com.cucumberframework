@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cucumberframework</groupId>
+  <artifactId>com.cucumberframework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+<!--  Selenium  -->
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>4.16.1</version>
+</dependency>
+<!--  WebDriverManager  -->
+<dependency>
+<groupId>io.github.bonigarcia</groupId>
+<artifactId>webdrivermanager</artifactId>
+<version>5.7.0</version>
+</dependency>
+<!--  Cucumber Java  -->
+<dependency>
+<groupId>io.cucumber</groupId>
+
+<artifactId>cucumber-java</artifactId>
+<version>7.23.0</version>
+</dependency>
+<!--  Cucumber JUnit 5 Platform Engine  -->
+<dependency>
+<groupId>io.cucumber</groupId>
+<artifactId>cucumber-junit-platform-engine</artifactId>
+<version>7.23.0</version>
+<scope>test</scope>
+</dependency>
+<!--  JUnit Platform Suite API  -->
+
+<dependency>
+<groupId>org.junit.platform</groupId>
+<artifactId>junit-platform-suite</artifactId>
+<version>1.9.3</version>
+<scope>test</scope>
+</dependency>
+
+
+<!--Step 1: Add Dependencies in pom.xml -->
+  <!-- Cucumber Core -->
+  <!--
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.11.2</version>
+  </dependency>
+  
+-->
+  <!-- TestNG -->
+     
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+  </dependency>
+  
+
+  <!-- Cucumber TestNG -->
+    
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.11.2</version>
+  </dependency>
+	
+   <!-- JUnit 5 (Jupiter)-->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+</dependency>
+
+   <!-- JUnit 4 -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+</project>
