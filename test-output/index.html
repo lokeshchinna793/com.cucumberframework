@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-ParallelSuite" class="navigator-link ">
-                    <span>D:\eclipse-workspace\com.cucumberframework\ParallelTestRunner.xml</span>
+                    <span>D:\eclipse-workspace\com.cucumberframework\TestRunner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -107,16 +107,16 @@
         </div> <!-- panel ParallelSuite -->
         <div panel-name="test-xml-ParallelSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\eclipse-workspace\com.cucumberframework\ParallelTestRunner.xml</span>
+            <span class="header-content">D:\eclipse-workspace\com.cucumberframework\TestRunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; name=&quot;ParallelSuite&quot;&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;ParallelTests&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ParallelSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ParallelTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testrunner.ParallelTestRunnerTest&quot;/&gt;
+      &lt;class name=&quot;com.testrunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ParallelTests --&gt;
 &lt;/suite&gt; &lt;!-- ParallelSuite --&gt;
@@ -187,16 +187,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testrunner.ParallelTestRunnerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testrunner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUpClass(org.testng.TestRunner@449a4f23)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@49c7b90e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">62 ms</span>
+                <span class="method-start">131 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

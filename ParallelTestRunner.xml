@@ -1,9 +1,0 @@
-
-<suite name="ParallelSuite" parallel="tests" thread-count="3">
-    <test name="ParallelTests">
-        <classes>
-            <class name="com.testrunner.ParallelTestRunnerTest"/>
-            
-        </classes>
-    </test>
-</suite>

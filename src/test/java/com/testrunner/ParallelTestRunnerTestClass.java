@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
     plugin = {"pretty", "html:target/cucumber-report.html"},
     monochrome = true
 )
-public class ParallelTestRunnerTest extends AbstractTestNGCucumberTests {
+public class ParallelTestRunnerTestClass extends AbstractTestNGCucumberTests {
     
     @Override
     @DataProvider(parallel = true)

@@ -7,6 +7,8 @@ import org.junit.platform.suite.api.IncludeTags;
 import org.junit.platform.suite.api.SelectClasspathResource;
 import org.junit.platform.suite.api.Suite;
 
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
 import static io.cucumber.junit.platform.engine.Constants.*;
 
 @Suite
@@ -25,6 +27,6 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 //@ExcludeTags("Sanity")
 //@IncludeTags("Login")
 //@IncludeTags("Login")
-public class TestRunner {
+public class TestRunner  {
 	
 }

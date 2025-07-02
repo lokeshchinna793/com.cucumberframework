@@ -1,7 +1,8 @@
+com\testrunner\ParallelTestRunnerTestClass.class
+GetSet\GetSetClass.class
 com\stepdefinations\LoginArtoftestingEcom.class
 com\stepdefinations\OrangeHRMLogin.class
 com\testrunner\TestRunner.class
 com\stepdefinations\SetUpAndTearDown.class
-com\testrunner\ParallelTestRunner.class
 com\stepdefinations\LoginStepdef.class
 com\stepdefinations\MultipleSetsofData.class
